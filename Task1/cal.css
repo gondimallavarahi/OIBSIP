@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    /* background:black; */
+    background-image: url("https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&w=600");
+  }
+  
+  .container {
+    margin-left: 1.8em;
+    padding: 30px;
+    border-radius: 35px;
+    box-shadow: 13px 13px 20px rgb(40, 187, 245),
+        -13px -13px 20px rgb(40, 187, 245);
+  }
+  
+  .content {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .row button {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px rgb(97, 96, 96),
+        -5px -5px 8px plum;
+  }
+  
+  .row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(208, 41, 41, 0.1),
+        inset -5px -5px 8px rgb(183, 178, 178);
+    background:rgb(185, 181, 181);
+  }
+  
+  .display #screen {
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background:whitesmoke;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px rgb(109, 109, 109),
+        inset -8px -8px 8px rgb(84, 83, 83);
+  }
+  
+  #eval {
+    background: #33ccff;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #66d9ff,
+        inset -5px -5px 8px #00ace6;
+  }
+  
+  #eval:hover {
+    box-shadow: inset 5px 5px 8px #00ace6,
+        inset -5px -5px 8px #00ace6;
+  }
+  
+  #ac {
+    background: #33cc33;
+    color: #fff;
+  }
+  
+  #ac:hover {
+    box-shadow: inset 5px 5px 8px #2eb82e,
+        inset -5px -5px 8px #33cc33;
+  }
+  
+  #DEL{
+    background: #ff3399;
+    color: #fff;
+  }
+  
+  #DEL:hover {
+    box-shadow: inset 5px 5px 8px #e60073,
+        inset -5px -5px 8px #ff3399;
+  }
